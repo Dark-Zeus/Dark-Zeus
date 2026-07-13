@@ -7,6 +7,10 @@ jobs:
   build:
     runs-on: self-hosted
 
+    defaults:
+      run:
+        shell: bash --noprofile --norc -e -o pipefail {0}
+
     permissions:
       contents: write
 
