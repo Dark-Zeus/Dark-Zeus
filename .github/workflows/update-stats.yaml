@@ -19,7 +19,7 @@ jobs:
           card: stats
           options: show_icons=true
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_STATS_PAT_READ_REPO }}
+          token: ${{ secrets.STATS_PAT_READ_REPO }}
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -27,7 +27,7 @@ jobs:
           card: top-langs
           options: layout=compact&langs_count=6
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_STATS_PAT_READ_REPO }}
+          token: ${{ secrets.STATS_PAT_READ_REPO }}
 
       - name: Generate pin card
         uses: stats-organization/github-readme-stats-action@v2
@@ -35,7 +35,7 @@ jobs:
           card: pin
           options: username=stats-organization&repo=github-readme-stats
           path: profile/pin-stats-organization-github-readme-stats.svg
-          token: ${{ secrets.GITHUB_STATS_PAT_READ_REPO }}
+          token: ${{ secrets.STATS_PAT_READ_REPO }}
 
       - name: Commit cards
         run: |
