@@ -1,5 +1,9 @@
 name: Update README cards
 
+env:
+  WSLENV: ""
+  WSL_UTF8: "1"
+  
 on:
   workflow_dispatch:
 
