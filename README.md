@@ -13,8 +13,8 @@ I'm a Software Engineer and undergraduate at UCSC (Information Systems) and SLII
 ## ⚡ GitHub Stats
 
 <p align="center">
-  <img align="center" src="https://github-stats-extended.vercel.app/api?username=Dark-Zeus&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&theme=github_dark" height="350px"/>
-  <img align="center" src="https://github-stats-extended.vercel.app/api/top-langs?username=Dark-Zeus&layout=pie&langs_count=4&theme=github_dark" height="350px"/>
+  <img align="center" src="./profile/stats.svg" height="350px"/>
+  <img align="center" src="./profile/top-langs.svg" height="350px"/>
 </p>
 
 <p align="center">
