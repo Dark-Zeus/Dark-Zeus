@@ -9,7 +9,7 @@ jobs:
 
     defaults:
       run:
-        shell: bash --noprofile --norc -e -o pipefail {0}
+        shell: 'C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}'
 
     permissions:
       contents: write
